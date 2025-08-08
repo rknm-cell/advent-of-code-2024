@@ -57,8 +57,8 @@ function MergeSort(arr) {
   return Merge(sortedLeft, sortedRight);
 }
 
-const sortedInputLeft = MergeSort(leftInput);
-const sortedInputRight = MergeSort(rightInput);
+export const sortedInputLeft = MergeSort(leftInput);
+export const sortedInputRight = MergeSort(rightInput);
 console.log(sortedInputLeft);
 console.log(sortedInputRight);
 let number = 0;
